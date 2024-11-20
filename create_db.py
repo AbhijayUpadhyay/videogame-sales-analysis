@@ -1,21 +1,33 @@
 import pandas as pd
+import os
 import sqlite3
+import clean
 
 sales = './LargestCleanedDS.csv'
 metadata = './games.csv'
 
+## ======================================================================== ##
+
 # Convert csv files to DataFrames
-df_sales = pd.read_csv(sales)
-df_metadata = pd.read_csv(metadata)
+def read_csv_file(file_path):
 
-# Strip excess whitespace from column names and rows
-df_sales.columns = df_sales.columns.str.strip()
-df_metadata.columns = df_metadata.columns.str.strip()
+    if not os.path.exists(file_path):
+        print(f"File '{file_path}' does not exist.")
+        return None
+    
+    df = pd.read_csv(file_path)
+    return df
 
-df_metadata = df_metadata.drop(df_metadata.columns[0], axis=1)
+df_sales = read_csv_file(sales)
+df_metadata = read_csv_file(metadata)
 
-df_sales = df_sales.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
-df_metadata = df_metadata.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
+## ======================================================================== ##
+
+# Clean and format the dataframes
+df_sales = clean.process_dataframe(df_sales)
+df_metadata = clean.process_dataframe(df_metadata)
+
+## ======================================================================== ##
 
 # Connect to the database
 db = 'videogames.db'
