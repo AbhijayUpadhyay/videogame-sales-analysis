@@ -11,7 +11,7 @@ from sql_analysis import run_sql_queries
 def main():
 
     # Step 1: Load the datasets
-    sales = './LargestCleanedDS.csv'
+    sales = './vgsales.csv'
     metadata = './games.csv'
 
     # Step 2: Convert csv files to DataFrames
