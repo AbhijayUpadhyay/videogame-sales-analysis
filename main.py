@@ -36,7 +36,9 @@ def main():
 
     # Now we can begin to find patterns in video game sales...
     # Step 5: Run SQL analysis
-    run_sql_queries(db_file_path)
+    run_sql_queries(db_file_path)    # <-- Comment out function call to skip query results
+
+    # Next steps: DataFrame analysis / Predictions
     
     
 
