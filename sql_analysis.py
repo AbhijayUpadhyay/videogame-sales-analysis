@@ -7,7 +7,7 @@ def avg_sales_genre(cursor):
     avg_sales = cursor.execute('''
         SELECT 
             m.genres, 
-            AVG(s.sales_number) AS avg_sales
+            AVG(s.global_sales) AS avg_sales
         FROM 
             sales s
         JOIN 
@@ -28,11 +28,13 @@ def top_ten(cursor):
     top_ten = cursor.execute('''
         SELECT 
             title, 
-            sales_number 
+            SUM(global_sales) AS total_sales
         FROM 
             sales
+        GROUP BY
+            title
         ORDER BY 
-            sales_number DESC
+            total_sales DESC
         LIMIT 10;
     ''')
     for row in top_ten:
@@ -59,4 +61,4 @@ def run_sql_queries(db):
     top_ten(cursor)
 
     # Average sales for each genre
-    avg_sales_genre(cursor)
+    # avg_sales_genre(cursor)
