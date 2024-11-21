@@ -1,5 +1,10 @@
 import pandas as pd
 
+def null_value_check(df):
+
+    res = df.isna().sum()
+
+
 def handle_null_values(df):
 
     # Drop rows with NULL values    
@@ -8,6 +13,7 @@ def handle_null_values(df):
     # Drop columns with headers that are null or contain no letters/numbers
     df = df[[col for col in df.columns if col and any(c.isalnum() for c in str(col))]]
 
+    null_value_check(df)
     return df
 
 def process_dataframe(df):
@@ -25,7 +31,12 @@ def process_dataframe(df):
     # Convert column names to lowercase
     df.columns = df.columns.str.lower()
 
-    # Replace spaces with underscores
+    # Replace spaces with underscores in column headers
     df.columns = df.columns.str.replace(' ', '_')
+
+    # File-specific adjustments    
+    df.columns = df.columns.str.replace('name', 'title')
+    if df.columns[0] == 'rank':
+        df.drop('rank', axis=1, inplace=True)
 
     return df
