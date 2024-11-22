@@ -36,4 +36,7 @@ def process_dataframe(df):
     if df.columns[2] == 'year':
         df['year'] = pd.to_datetime(df['year'], format='%Y')
 
+    if 'wishlist' in df.columns:
+        df['wishlist'] = df['wishlist'].apply(lambda x: int(float(str(x).replace('K', '')) * 1000) if 'K' in str(x) else int(x))
+
     return df
