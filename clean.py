@@ -1,10 +1,5 @@
 import pandas as pd
 
-def null_value_check(df):
-
-    res = df.isna().sum()
-
-
 def handle_null_values(df):
 
     # Drop rows with NULL values    
@@ -13,7 +8,6 @@ def handle_null_values(df):
     # Drop columns with headers that are null or contain no letters/numbers
     df = df[[col for col in df.columns if col and any(c.isalnum() for c in str(col))]]
 
-    null_value_check(df)
     return df
 
 def process_dataframe(df):
@@ -38,5 +32,8 @@ def process_dataframe(df):
     df.columns = df.columns.str.replace('name', 'title')
     if df.columns[0] == 'rank':
         df.drop('rank', axis=1, inplace=True)
+
+    if df.columns[2] == 'year':
+        df['year'] = pd.to_datetime(df['year'], format='%Y')
 
     return df
