@@ -1,6 +1,6 @@
 ## Optimizing Inventory and Sales Strategies in the Video Game Industry
 ---
-This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors. The goal is to optimize sales strategies, enhance customer reach, and boost revenue.
+This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
 ### Requirements
 - ##### Python Libraries:
