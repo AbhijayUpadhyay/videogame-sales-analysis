@@ -34,4 +34,5 @@ This project analyzes and visualizes data to provide actionable insights for vid
 
 ### Contributors
 Abhijay Upadhyay - au143
+
 Luke Fernandez - lmf232
