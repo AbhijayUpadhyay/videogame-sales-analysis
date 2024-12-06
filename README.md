@@ -6,7 +6,7 @@ This project analyzes and visualizes data to provide actionable insights for vid
 - #### Python Libraries:
     ```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```
 - #### Custom Modules:
-    ```analysis```, ```sql_queries```, ```clean```
+    ```analysis```, ```sql_queries```, ```clean```, ```plots```
 
 ### Data Sources
 - **vgsales.csv:** Contains historical sales data (e.g., global sales, publisher, platform).
