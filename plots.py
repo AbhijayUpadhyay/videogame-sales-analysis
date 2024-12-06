@@ -80,5 +80,5 @@ def sales_analysis(df_sales):
         meanDfList.append(dfList[int(len(dfList)/2) + i].groupby('year')['global_sales'].mean().reset_index())
         plt.plot(maxDfList[i]['year'], maxDfList[i]['global_sales'], marker = 'o', color = colList[i], label = dfNames[int(len(dfList)/2) + i])
 
-plt.legend()
-plt.show()
+    plt.legend()
+    plt.show()
