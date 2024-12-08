@@ -5,6 +5,9 @@ This project analyzes and visualizes data to provide actionable insights for vid
 ### Requirements
 - #### Python Libraries:
     ```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```
+    ```
+    pip install -r requirements.txt
+    ```
 - #### Custom Modules:
     ```analysis```, ```sql_queries```, ```clean```, ```plots```
 
