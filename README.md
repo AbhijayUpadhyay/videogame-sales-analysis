@@ -87,7 +87,7 @@ Now, start Jupyter Notebook:
 ```
 jupyter notebook
 ```
-This will open Jupyter in your web browser. Open the main.ipynb file, and you can start running the notebook interactively.
+This will open Jupyter in your web browser. Open the main.ipynb file, and you can start running the notebook.
 
 
 #### Step 5: Run the Notebook
