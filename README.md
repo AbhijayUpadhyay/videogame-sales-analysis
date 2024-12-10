@@ -89,7 +89,9 @@ This will open Jupyter in your web browser. Open the main.ipynb file, and you ca
 #### Step 5: Run the Notebook
 Open and execute main.ipynb Jupyter Notebook cell by cell and observe the results.
 
-### Example Workflow in ```main.ipynb```
+--
+
+## Example Workflow in ```main.ipynb```
 #### Part One: Setup
 - Load Data: Import historical sales (vgsales.csv) and metadata (games.csv) into Pandas DataFrames.
 - Clean Data: Use the ```process_dataframe``` function (located in ```clean.py```) to preprocess and clean the datasets.
