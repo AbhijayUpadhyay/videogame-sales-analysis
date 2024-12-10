@@ -2,9 +2,9 @@
 ---
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
-#### Python Libraries:
+### Python Libraries:
 ```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```, ```sklearn.linear_model```, ```sklearn.metrics```
-#### Custom Modules:
+### Custom Modules:
 ```analysis```, ```sql_queries```, ```clean```, ```plots```
 
 ### Data Sources
