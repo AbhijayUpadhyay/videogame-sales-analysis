@@ -3,7 +3,8 @@
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
 ### Contributors
-Abhijay Upadhyay - au143            Luke Fernandez - lmf232
+- Abhijay Upadhyay - au143
+- Luke Fernandez - lmf232
 
 ### Python Libraries:
 ```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```, ```sklearn.linear_model```, ```sklearn.metrics```
