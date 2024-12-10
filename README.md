@@ -65,13 +65,13 @@ source venv/bin/activate
 .\venv\Scripts\activate
 ```
 
-### Step 3: Install Dependencies
+#### Step 3: Install Dependencies
 Once the virtual environment is activated, install the required packages from ```requirements.txt```.
 ```
 pip install -r requirements.txt
 ```
 
-### Step 4: Setting up the Notebook
+#### Step 4: Setting up the Notebook
 Ensure that you have Jupyter Notebook installed in your virtual environment. If it's not installed, you can install it using:
 ```
 pip install notebook
@@ -84,7 +84,7 @@ jupyter notebook
 This will open Jupyter in your web browser. Open the main.ipynb file, and you can start running the notebook interactively.
 
 
-### Step 5: Run the Notebook
+#### Step 5: Run the Notebook
 Open and execute main.ipynb Jupyter Notebook cell by cell and observe the results.
 
 ### Example Workflow in ```main.ipynb```
