@@ -30,10 +30,16 @@ This project analyzes and visualizes data to provide actionable insights for vid
 
 ## Getting Started
 ### Option 1 (Recommended): Running on Rutgers JupyterLab
-1. Ensure required datasets (vgsales.csv and games.csv) are in the root directory.
-2. Run the pipeline via ```main.ipynb``` one cell at a time.
+#### Step 1: Access the Rutgers JupyterLab Environment
+- Visit the Codebench JupyterLab portal.
+- Log in with your Rutgers credentials.
 
-### Option 2: Virtual Environment
+#### Step 2: Upload the Project Files 
+- Upload the project files (e.g., main.ipynb, analysis.py, sql_queries.py, clean.py, etc.) to your JupyterLab workspace.
+- This can be done  by dragging and dropping the files into the file explorer in JupyterLab.
+
+
+### Option 2: Set Up a Virtual Environment
 #### Step 1: Clone the repository
 Start by cloning the repository to your local machine.
 ```
