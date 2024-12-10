@@ -1,4 +1,4 @@
-## Optimizing Inventory and Sales Strategies in the Video Game Industry
+# Optimizing Inventory and Sales Strategies in the Video Game Industry
 ---
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
@@ -28,14 +28,60 @@ This project analyzes and visualizes data to provide actionable insights for vid
 
 ---
 
-### Getting Started
-We recommend 
-
-### Usage
+## Getting Started
+### Option 1 (Recommended): Running on Rutgers JupyterLab
 1. Ensure required datasets (vgsales.csv and games.csv) are in the root directory.
-2. Run the pipeline via ```main.ipynb```
+2. Run the pipeline via ```main.ipynb``` one cell at a time.
 
-### Components
+### Option 2: Virtual Environment
+#### Step 1: Clone the repository
+Start by cloning the repository to your local machine.
+```
+git clone https://github.com/lukerepublic/videogame-sales-analysis.git
+cd videogame-sales-analysis
+```
+
+#### Step 2: Set up a Python Virtual Environment
+If you don't have ```virtualenv``` installed, you can install it via ```pip```
+```
+pip install virtualenv
+```
+Create the virtual environment:
+```
+python3 -m venv venv
+```
+Activate the environement:
+```
+# On macOS/Linux
+source venv/bin/activate
+
+# On Windows
+.\venv\Scripts\activate
+```
+
+### Step 3: Install Dependencies
+Once the virtual environment is activated, install the required packages from ```requirements.txt```.
+```
+pip install -r requirements.txt
+```
+
+### Step 4: Setting up the Notebook
+Ensure that you have Jupyter Notebook installed in your virtual environment. If it's not installed, you can install it using:
+```
+pip install notebook
+```
+
+Now, start Jupyter Notebook:
+```
+jupyter notebook
+```
+This will open Jupyter in your web browser. Open the main.ipynb file, and you can start running the notebook interactively.
+
+
+### Step 5: Run the Notebook
+Open and execute main.ipynb Jupyter Notebook cell by cell and observe the results.
+
+### Example Workflow in ```main.ipynb```
 #### Part One: Setup
 - Load Data: Import historical sales (vgsales.csv) and metadata (games.csv) into Pandas DataFrames.
 - Clean Data: Use the ```process_dataframe``` function (located in ```clean.py```) to preprocess and clean the datasets.
@@ -49,6 +95,9 @@ We recommend
 #### Part Three: Genre Analysis
 - DataFrame manipulation: Combine sales and metadata to identify additional genre-based insights.
 - Develop machine learning models to predict sales based on genre, wishlist count, and other features.
+
+#### Part Four: Predictive Modeling
+- Predict the outcome of genre sales and draw conclusions.
 
 ### Contributors
 Abhijay Upadhyay - au143
