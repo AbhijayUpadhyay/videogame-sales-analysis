@@ -1,5 +1,3 @@
-import sqlite3
-
 # Generate a number correlation between each genre's sales, average rating, and number of reviews.
 def genre_correlation(cursor):
 
@@ -219,3 +217,16 @@ def top_ten(cursor):
     print("\nTop 10 Selling Games:"); print()
     for row in top_ten:
         print(row)
+
+# Extract the best selling genre per year
+def best_selling_genre_per_year(cursor):
+    return cursor.execute('''
+        SELECT 
+            title, 
+            year, 
+            global_sales, 
+            genre
+        FROM sales AS s1 
+        WHERE global_sales = (SELECT MAX(global_sales)FROM sales AS s2 WHERE s1.year = s2.year)
+        ORDER BY year
+    ''')
