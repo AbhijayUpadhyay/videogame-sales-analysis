@@ -112,7 +112,9 @@ Open and execute main.ipynb Jupyter Notebook cell by cell and observe the result
 #### Part Four: Predictive Modeling
 - Predict the outcome of games released in a given year and average plays by month and draw conclusions.
 
-#### Part Five: Video
+---
+
+### Demo
 - Here's the link to our video for the project: https://youtu.be/skJIfz-B4ZI
 
 
