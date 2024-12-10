@@ -3,9 +3,9 @@
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
 #### Python Libraries:
-```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```
+```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```, ```sklearn.linear_model```, ```sklearn.metrics```
 #### Custom Modules:
-    ```analysis```, ```sql_queries```, ```clean```, ```plots```
+```analysis```, ```sql_queries```, ```clean```, ```plots```
 
 ### Data Sources
 - **vgsales.csv:** Contains historical sales data (e.g., global sales, publisher, platform).
