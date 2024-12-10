@@ -111,5 +111,4 @@ Open and execute main.ipynb Jupyter Notebook cell by cell and observe the result
 
 #### Part Four: Predictive Modeling
 - Predict the outcome of genre sales and draw conclusions.
-
----
+  
