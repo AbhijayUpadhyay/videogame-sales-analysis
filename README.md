@@ -2,6 +2,9 @@
 ---
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
+### Contributors
+Abhijay Upadhyay - au143            Luke Fernandez - lmf232
+
 ### Python Libraries:
 ```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```, ```sklearn.linear_model```, ```sklearn.metrics```
 ### Custom Modules:
@@ -89,7 +92,7 @@ This will open Jupyter in your web browser. Open the main.ipynb file, and you ca
 #### Step 5: Run the Notebook
 Open and execute main.ipynb Jupyter Notebook cell by cell and observe the results.
 
---
+---
 
 ## Example Workflow in ```main.ipynb```
 #### Part One: Setup
@@ -108,7 +111,4 @@ Open and execute main.ipynb Jupyter Notebook cell by cell and observe the result
 #### Part Four: Predictive Modeling
 - Predict the outcome of genre sales and draw conclusions.
 
-### Contributors
-Abhijay Upadhyay - au143
-
-Luke Fernandez - lmf232
+---
