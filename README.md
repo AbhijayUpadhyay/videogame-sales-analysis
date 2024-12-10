@@ -40,7 +40,7 @@ This project analyzes and visualizes data to provide actionable insights for vid
 
 #### Step 2: Upload the Project Files 
 - Upload the project files (e.g., main.ipynb, analysis.py, sql_queries.py, clean.py, etc.) to your JupyterLab workspace.
-- This can be done  by dragging and dropping the files into the file explorer in JupyterLab.
+  - This can be done  by dragging and dropping the files into the file explorer in JupyterLab.
 
 #### Step 3: Run the Notebook
 - Execute main.ipynb Jupyter Notebook cell by cell and observe the results.
