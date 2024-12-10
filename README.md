@@ -3,7 +3,7 @@
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
 #### Python Libraries:
-    `os`, `sqlite3`, ```pandas```, ```numpy```, ```,matplotlib.pyplot```,
+    `os`, `sqlite3`, `pandas`, `numpy`, `,matplotlib.pyplot`,
 #### Custom Modules:
     ```analysis```, ```sql_queries```, ```clean```, ```plots```
 
