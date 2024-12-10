@@ -2,7 +2,7 @@
 ---
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
-### Contributors
+### Contributors:
 - Abhijay Upadhyay - au143
 - Luke Fernandez - lmf232
 
