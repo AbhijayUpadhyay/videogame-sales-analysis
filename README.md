@@ -2,15 +2,9 @@
 ---
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
-### Requirements
-- #### Python Libraries:
+#### Python Libraries:
     ```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```
-
-    To install the required Python libraries, use the provided ```requirements.txt``` file:
-    ```
-    pip install -r requirements.txt
-    ```
-- #### Custom Modules:
+#### Custom Modules:
     ```analysis```, ```sql_queries```, ```clean```, ```plots```
 
 ### Data Sources
