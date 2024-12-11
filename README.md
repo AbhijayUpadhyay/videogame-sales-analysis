@@ -112,8 +112,8 @@ Open and execute main.ipynb Jupyter Notebook cell by cell and observe the result
 #### Part Four: Predictive Modeling
 - Predict the outcome of games released in a given year and average plays by month and a publisher's sales given the number of games they've released and draw conclusions.
 
-#### Part Five: Our suggestions based on our analysis
-- Give suggestions and insights to both physical retailers and game developers, distributors, and publishers on how to maximize sales based off what factors correlate positively and heavily with number of sales and plays
+#### Part Five: Suggestions and Solutions
+- Provide real solutions for game developers, distributors, and publishers on how to maximize sales based on our predetermined findings.
 
 ---
 
