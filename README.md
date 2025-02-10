@@ -2,6 +2,10 @@
 ---
 This project analyzes and visualizes data to provide actionable insights for video game developers, publishers, and distributors to optimize sales strategies, enhance customer reach, and boost revenue.
 
+
+### Demo
+- Here's the link to our video for the project: https://youtu.be/skJIfz-B4ZI
+
 ### Contributors:
 - Abhijay Upadhyay - au143
 - Luke Fernandez - lmf232
@@ -116,9 +120,6 @@ Open and execute main.ipynb Jupyter Notebook cell by cell and observe the result
 - Provide real solutions for game developers, distributors, and publishers on how to maximize sales based on our predetermined findings.
 
 ---
-
-### Demo
-- Here's the link to our video for the project: https://youtu.be/skJIfz-B4ZI
 
 
   
