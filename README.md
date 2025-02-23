@@ -7,8 +7,7 @@ This project analyzes and visualizes data to provide actionable insights for vid
 - Here's the link to our video for the project: https://youtu.be/skJIfz-B4ZI
 
 ### Contributors:
-- Abhijay Upadhyay - au143
-- Luke Fernandez - lmf232
+- Abhijay Upadhyay 
 
 ### Python Libraries:
 ```os```, ```sqlite3```, ```pandas```, ```numpy```, ```matplotlib.pyplot```, ```sklearn.linear_model```, ```sklearn.metrics```
